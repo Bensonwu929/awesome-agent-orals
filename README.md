@@ -5,7 +5,7 @@
 **Why Orals & Awards?**  
 The number of AI papers has grown explosively — thousands are submitted to each top conference every year. Reading everything is impossible, and simple keyword search drowns you in noise. **Oral presentations and award papers** are the program committee's own answer to this problem: they represent the top ~2% of submissions that reviewers judged to have the clearest contributions, strongest results, and broadest impact. This list uses that signal as a quality filter, so you can trust that every entry here has already passed the highest bar the field sets.
 
-**Coverage:** ICLR 2025/2026 · ICML 2024/2025 · ACL 2024/2025 · NeurIPS 2024/2025 · CVPR 2024/2025
+**Coverage:** ICLR 2024/2025/2026 · ICML 2024/2025 · ACL 2024/2025 · NeurIPS 2024/2025 · CVPR 2024/2025
 
 **Legend:** 🏆 Best Paper · 🥈 Best Paper Runner-up · ⭐ Outstanding Paper · 📖 Oral
 
@@ -19,8 +19,9 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 - [ICML 2025](#-icml-2025-oral--outstanding-paper--15-papers)
 - [NeurIPS 2025](#-neurips-2025-oral--best-papers--6-papers)
 - [CVPR 2025](#-cvpr-2025-oral--8-papers)
-- [ACL 2025](#-acl-2025--representative-papers)
+- [ACL 2025](#-acl-2025--award--representative-papers)
 - [ICML 2024](#-icml-2024-oral--11-papers)
+- [ICLR 2024](#-iclr-2024-oral--6-papers)
 - [ACL 2024](#-acl-2024-outstanding-papers--3-papers)
 - [NeurIPS 2024](#-neurips-2024-oralspotlight--5-representative-papers)
 - [CVPR 2024](#-cvpr-2024-oral--5-papers)
@@ -38,8 +39,9 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 | ICML | 2025 | 15 + 1 ⭐ Outstanding | Multi-Agent Search, SWE, IT Automation, Curious Agent |
 | NeurIPS | 2025 | 6 + 🏆 Best Paper + 🥈 Runner-up | RL Scaling, VLN, World Simulator, Web Code Benchmark |
 | CVPR | 2025 | 8 | Navigation World Models, Generalist Embodied Agent, Robot |
-| ACL | 2025 | Representative (awards TBD) | Tool Agent, Repo-level Compilation |
+| ACL | 2025 | 2 (SAC Highlights) + representative | AI Agent for Science, Visual Gen Eval |
 | ICML | 2024 | 11 | LLM Agent Frameworks, Code Agent, Multi-Agent Competition |
+| ICLR | 2024 | 6 | Web Agent, MetaGPT, SWE-bench, Causal World Model, MARL |
 | ACL | 2024 | 3 (award papers) | Interactive Coding Agent, Multi-Agent Safety, Econ Simulation |
 | NeurIPS | 2024 | 5 (representative) | Agent Eval, Social Agent, GUI Agent, Code Agent |
 | CVPR | 2024 | 5 | Embodied AI Perception, Autonomous Driving, Embodied Navigation |
@@ -241,15 +243,22 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 
 ---
 
-## 📌 ACL 2025 — Representative Papers
+## 📌 ACL 2025 — Award & Representative Papers
 
-> Held in Vienna, Austria, July 2025  
-> ⚠️ Best paper awards not yet publicly announced; entries below are representative agent-related long papers.
+> Held in Vienna, Austria, July 2025
+
+### 🏅 SAC Highlights (Area Chair Award — Agent-Related)
+
+| Paper | Links | TL;DR |
+|-------|-------|-------|
+| 📖 **Completing A Systematic Review in Hours instead of Months with Interactive AI Agents** | [arXiv](https://arxiv.org/abs/2504.14822) | AI agent pipeline automating systematic review (screening, extraction, synthesis); reduces months-long human effort to hours |
+| 📖 **Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models** | [arXiv](https://arxiv.org/abs/2412.09645) | Agent-based evaluation framework that dynamically adapts evaluation strategies and metrics for visual generative models based on user prompts |
+
+### 📖 Representative Agent Papers (Main Conference)
 
 | Paper | Links | TL;DR |
 |-------|-------|-------|
 | 📖 **CompileAgent: Automated Real-World Repo-Level Compilation with Tool-Integrated LLM-based Agent System** | [ACL Anthology](https://aclanthology.org/2025.acl-long.103) | Tool-integrated LLM agent system that automates real-world repository-level compilation |
-| *(More agent papers)* | [ACL 2025 Proceedings](https://aclanthology.org/events/acl-2025/) | Covers multi-agent systems, agentic workflow, tool use, etc. |
 
 ---
 
@@ -270,6 +279,33 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 | 📖 **Offline Actor-Critic Reinforcement Learning Scales to Large Models** | [ICML](https://icml.cc/virtual/2024/oral/35451) | Offline Actor-Critic RL scales to Transformer-based large models; surpasses behavioral cloning on 132 continuous control tasks |
 | 📖 **AI Control: Improving Safety Despite Intentional Subversion** | [ICML](https://icml.cc/virtual/2024/oral/35539) | AI control protocol that prevents malicious code submission even with a powerful but untrustworthy LLM (GPT-4) |
 | 📖 **Debating with More Persuasive LLMs Leads to More Truthful Answers** | [ICML](https://icml.cc/virtual/2024/oral/35483) | LLM debate mechanism: two expert LLMs debate while a weak judge determines truth; accuracy 48% → 76% |
+
+---
+
+## 📌 ICLR 2024 Oral — 6 Papers
+
+> 86 Orals total out of ~7,262 submissions
+
+### 🌐 Web / Code Agent
+
+| Paper | Links | TL;DR |
+|-------|-------|-------|
+| 📖 **A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis** | [arXiv](https://arxiv.org/abs/2307.12856) · [ICLR](https://iclr.cc/virtual/2024/oral/19785) | LLM-driven web agent (Flan-U-PaLM + HTML-T5) that decomposes instructions, summarizes long HTML, and executes via Python programs; 50%+ improvement on real websites, SoTA on Mind2Web |
+| 📖 **SWE-bench: Can Language Models Resolve Real-world Github Issues?** | [arXiv](https://arxiv.org/abs/2310.06770) · [ICLR](https://iclr.cc/virtual/2024/oral/19757) | 2,294 software engineering problems from real GitHub issues across 12 Python repos; tests multi-file, multi-function code editing; the de facto benchmark for coding agents |
+
+### 🤝 Multi-Agent Systems
+
+| Paper | Links | TL;DR |
+|-------|-------|-------|
+| 📖 **MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework** | [arXiv](https://arxiv.org/abs/2308.00352) · [ICLR](https://iclr.cc/virtual/2024/oral/19756) | Encodes SOPs into LLM multi-agent workflows with role-assignment (PM/architect/engineer); reduces cascading hallucinations; SoTA on collaborative software engineering benchmarks |
+| 📖 **Efficient Episodic Memory Utilization of Cooperative Multi-Agent Reinforcement Learning** | [ICLR](https://iclr.cc/virtual/2024/oral/19766) | EMU: semantically coherent episodic memory recall + episodic incentive reward for MARL; SoTA on StarCraft II and Google Research Football |
+
+### 🧠 Agent Theory & RL
+
+| Paper | Links | TL;DR |
+|-------|-------|-------|
+| 📖 **Robust agents learn causal world models** | [ICLR](https://iclr.cc/virtual/2024/oral/19724) | Proves any agent satisfying a regret bound across large distribution shifts must learn an approximate causal world model; theoretical foundation for robust generalization |
+| 📖 **METRA: Scalable Unsupervised RL with Metric-Aware Abstraction** | [ICLR](https://iclr.cc/virtual/2024/oral/19745) | Metric-aware latent abstraction for unsupervised RL skill discovery; first to discover diverse locomotion behaviors in pixel-based Humanoid/Quadruped |
 
 ---
 
@@ -317,10 +353,12 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 - EoH (ICML 2024)
 - MaAS (ICML 2025)
 - Speculative Actions (ICLR 2026)
+- Completing Systematic Review Agents (ACL 2025) `2504.14822`
 
 ### GUI / Web / Computer-Use Agent
 - UGround (ICLR 2025) `2410.05243`
 - Spider 2.0 (ICLR 2025) `2411.07763`
+- WebAgent (ICLR 2024) `2307.12856`
 - CogAgent (NeurIPS 2024) `2312.08914`
 - RedTeamCUA (ICLR 2026)
 
@@ -328,7 +366,7 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 - BigCodeBench (ICLR 2025) `2406.15877`
 - MLE-bench (ICLR 2025) `2410.07095`
 - AppWorld 🏆 (ACL 2024)
-- SWE-bench (NeurIPS 2024) `2310.06770`
+- SWE-bench (ICLR 2024) `2310.06770`
 - SWE-Lancer (ICML 2025)
 - Chain of Code (ICML 2024)
 - CompileAgent (ACL 2025)
@@ -336,6 +374,8 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 - SceneCraft (ICML 2024)
 
 ### Multi-Agent Systems
+- MetaGPT (ICLR 2024) `2308.00352`
+- Efficient Episodic Memory MARL (ICLR 2024)
 - CompeteAI (ICML 2024)
 - Advantage Alignment (ICLR 2025) `2406.14662`
 - PsySafe 🏆 (ACL 2024)
@@ -361,6 +401,8 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 - MedAgentGym (ICLR 2026)
 
 ### RL Agent / Reasoning Agent
+- Robust agents learn causal world models (ICLR 2024)
+- METRA (ICLR 2024)
 - PRISE (ICML 2024)
 - Offline AC RL Scales (ICML 2024)
 - 1000 Layer RL Networks 🏆 (NeurIPS 2025 Best Paper)
@@ -388,6 +430,7 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 - ITBench (ICML 2025)
 - LLM-SRBench (ICML 2025)
 - AstaBench (ICLR 2026)
+- Evaluation Agent (ACL 2025) `2412.09645`
 
 ---
 
@@ -401,5 +444,5 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before
 
 ---
 
-*Sources: ICLR 2025/2026 virtual site & OpenReview · ICML 2024/2025 virtual site & awards_detail · ACL Anthology 2024/2025 · NeurIPS 2024/2025 virtual site & awards_detail · CVPR 2024/2025 virtual site*  
+*Sources: ICLR 2024/2025/2026 virtual site & OpenReview · ICML 2024/2025 virtual site & awards_detail · ACL Anthology 2024/2025 · NeurIPS 2024/2025 virtual site & awards_detail · CVPR 2024/2025 virtual site*  
 *Last updated: March 2026*
