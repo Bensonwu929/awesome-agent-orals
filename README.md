@@ -50,14 +50,14 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 
 > Papers confirmed on OpenReview; conference to be held in 2026
 
-| Paper | TL;DR |
-|-------|-------|
-| 📖 **Agent Data Protocol** | Proposes a standardized protocol for AI agent interactions with external data sources |
-| 📖 **MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science** | Scalable agentic training environment for code-centric reasoning in biomedical data science |
-| 📖 **AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite** | Rigorous evaluation of AI agents across a full scientific research workflow |
-| 📖 **Speculative Actions: A Lossless Framework for Faster AI Agents** | Speculative execution framework that significantly accelerates AI agent inference without accuracy loss |
-| 📖 **RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments** | Red-teaming framework for adversarial testing of computer-use agents in realistic Web-OS environments |
-| 📖 **Compositional Diffusion with Guided Search for Long-Horizon Planning** | Compositional diffusion model with guided search for agent long-horizon planning |
+| Paper | Links | TL;DR |
+|-------|-------|-------|
+| 📖 **Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents** | [OpenReview](https://openreview.net/forum?id=tG6301ORHd) | Lightweight "interlingua" schema (ADP) that standardizes 13 heterogeneous agent datasets; SFT on unified data yields ~20% avg gain across coding/browsing/tool-use benchmarks |
+| 📖 **MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science** | [OpenReview](https://openreview.net/forum?id=jHDZEUgS4r) | Scalable agentic training environment for code-centric reasoning in biomedical data science |
+| 📖 **AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite** | [OpenReview](https://openreview.net/forum?id=M7TNf5J26u) | Rigorous evaluation of AI agents across a full scientific research workflow |
+| 📖 **Speculative Actions: A Lossless Framework for Faster AI Agents** | [arXiv](https://arxiv.org/abs/2510.04371) · [OpenReview](https://openreview.net/forum?id=P0GOk5wslg) | Speculative execution framework that significantly accelerates AI agent inference without accuracy loss |
+| 📖 **RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments** | [OpenReview](https://openreview.net/forum?id=yWwrgcBoK3) | Red-teaming framework for adversarial testing of computer-use agents in realistic Web-OS environments |
+| 📖 **Compositional Diffusion with Guided Search for Long-Horizon Planning** | [arXiv](https://arxiv.org/abs/2601.00126) | CDGS embeds search in diffusion denoising to compose local models for long-horizon planning; matches oracle on 7 robot manipulation tasks |
 
 ---
 
