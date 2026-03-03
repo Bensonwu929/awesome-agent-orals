@@ -5,7 +5,7 @@
 **Why Orals & Awards?**  
 The number of AI papers has grown explosively — thousands are submitted to each top conference every year. Reading everything is impossible, and simple keyword search drowns you in noise. **Oral presentations and award papers** are the program committee's own answer to this problem: they represent the top ~2% of submissions that reviewers judged to have the clearest contributions, strongest results, and broadest impact. This list uses that signal as a quality filter, so you can trust that every entry here has already passed the highest bar the field sets.
 
-**Coverage:** ICLR 2024/2025/2026 · ICML 2024/2025 · ACL 2024/2025 · NeurIPS 2024/2025 · CVPR 2024/2025
+**Coverage:** ICLR 2024/2025/2026 · ICML 2024/2025 · ACL 2024/2025 · NeurIPS 2024/2025 · CVPR 2024/2025 · ICCV 2025
 
 **Legend:** 🏆 Best Paper · 🥈 Best Paper Runner-up · ⭐ Outstanding Paper · 📖 Oral
 
@@ -20,6 +20,7 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 - [NeurIPS 2025](#-neurips-2025-oral--best-papers--6-papers)
 - [CVPR 2025](#-cvpr-2025-oral--8-papers)
 - [ACL 2025](#-acl-2025--award--representative-papers)
+- [ICCV 2025](#-iccv-2025-oral--2-papers)
 - [ICML 2024](#-icml-2024-oral--11-papers)
 - [ICLR 2024](#-iclr-2024-oral--6-papers)
 - [ACL 2024](#-acl-2024-outstanding-papers--3-papers)
@@ -40,6 +41,7 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 | NeurIPS | 2025 | 6 + 🏆 Best Paper + 🥈 Runner-up | RL Scaling, VLN, World Simulator, Web Code Benchmark |
 | CVPR | 2025 | 8 | Navigation World Models, Generalist Embodied Agent, Robot |
 | ACL | 2025 | 2 (SAC Highlights) + representative | AI Agent for Science, Visual Gen Eval |
+| ICCV | 2025 | 2 | Robot Manipulation from Video, Embodied AI Reasoning Agent |
 | ICML | 2024 | 11 | LLM Agent Frameworks, Code Agent, Multi-Agent Competition |
 | ICLR | 2024 | 6 | Web Agent, MetaGPT, SWE-bench, Causal World Model, MARL |
 | ACL | 2024 | 3 (award papers) | Interactive Coding Agent, Multi-Agent Safety, Econ Simulation |
@@ -262,6 +264,25 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 
 ---
 
+## 📌 ICCV 2025 Oral — 2 Papers
+
+> 64 Orals total; held in Honolulu, Hawaii, USA, October 2025  
+> *Note: ICCV is a biennial conference held only on odd years (2021 · 2023 · **2025** · 2027…). ICCV 2024 does not exist.*
+
+### 🤖 Robot Manipulation Agent
+
+| Paper | Links | TL;DR |
+|-------|-------|-------|
+| 📖 **Moto: Latent Motion Token as the Bridging Language for Learning Robot Manipulation from Videos** | [arXiv](https://arxiv.org/abs/2412.04445) · [ICCV](https://iccv.thecvf.com/virtual/2025/oral/2928) | Converts video into latent Motion Token sequences; pre-trains Moto-GPT on large video corpora then co-finetunes for real robot control — bridges cheap video supervision with hardware-agnostic robot action |
+
+### 🧠 Embodied AI Reasoning Agent
+
+| Paper | Links | TL;DR |
+|-------|-------|-------|
+| 📖 **Online Reasoning Video Segmentation with Just-in-Time Digital Twins** | [arXiv](https://arxiv.org/abs/2503.21056) · [ICCV](https://iccv.thecvf.com/virtual/2025/oral/2940) | Agent framework that decouples perception and reasoning for online video segmentation; LLM planner dynamically constructs a "just-in-time" digital twin scene representation, enabling embodied AI to handle complex spatial/temporal queries without LLM fine-tuning |
+
+---
+
 ## 📌 ICML 2024 Oral — 11 Papers
 
 > 144 Orals total
@@ -398,6 +419,8 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 - RoboSpatial (CVPR 2025)
 - PRIMT (NeurIPS 2025)
 - Dynam3D (NeurIPS 2025)
+- Moto (ICCV 2025) `2412.04445`
+- Online Reasoning Video Segmentation (ICCV 2025) `2503.21056`
 - MedAgentGym (ICLR 2026)
 
 ### RL Agent / Reasoning Agent
@@ -444,5 +467,5 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before
 
 ---
 
-*Sources: ICLR 2024/2025/2026 virtual site & OpenReview · ICML 2024/2025 virtual site & awards_detail · ACL Anthology 2024/2025 · NeurIPS 2024/2025 virtual site & awards_detail · CVPR 2024/2025 virtual site*  
+*Sources: ICLR 2024/2025/2026 virtual site & OpenReview · ICML 2024/2025 virtual site & awards_detail · ACL Anthology 2024/2025 · NeurIPS 2024/2025 virtual site & awards_detail · CVPR 2024/2025 virtual site · ICCV 2025 virtual site (thecvf.com)*  
 *Last updated: March 2026*
