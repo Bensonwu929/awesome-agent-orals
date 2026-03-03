@@ -267,7 +267,6 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 ## 📌 ICCV 2025 Oral — 2 Papers
 
 > 64 Orals total; held in Honolulu, Hawaii, USA, October 2025  
-> *Note: ICCV is a biennial conference held only on odd years (2021 · 2023 · **2025** · 2027…). ICCV 2024 does not exist.*
 
 ### 🤖 Robot Manipulation Agent
 
@@ -331,8 +330,6 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 ---
 
 ## 📌 ACL 2024 Outstanding Papers — 3 Papers
-
-> ACL does not have oral presentations; Outstanding / Best Papers are the equivalent top-tier distinction
 
 | Paper | Links | Award | TL;DR |
 |-------|-------|-------|-------|
