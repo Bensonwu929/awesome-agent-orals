@@ -14,12 +14,12 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 ## Contents
 
 - [Quick Overview](#-quick-overview)
+- [ICLR 2026](#-iclr-2026-oral--6-papers)
 - [ICLR 2025](#-iclr-2025-oral--22-papers)
 - [ICML 2025](#-icml-2025-oral--outstanding-paper--15-papers)
 - [NeurIPS 2025](#-neurips-2025-oral--best-papers--6-papers)
 - [CVPR 2025](#-cvpr-2025-oral--8-papers)
 - [ACL 2025](#-acl-2025--representative-papers)
-- [ICLR 2026](#-iclr-2026-oral--6-papers)
 - [ICML 2024](#-icml-2024-oral--11-papers)
 - [ACL 2024](#-acl-2024-outstanding-papers--3-papers)
 - [NeurIPS 2024](#-neurips-2024-oralspotlight--5-representative-papers)
@@ -33,16 +33,31 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 
 | Venue | Year | Agent Papers | Focus Areas |
 |-------|------|-------------|-------------|
+| ICLR | 2026 | 6 (Oral confirmed) | Agent Protocol, Security Testing, Inference Speedup |
 | ICLR | 2025 | 22 | Agentic Workflow, GUI Agent, Benchmarks, Embodied AI |
 | ICML | 2025 | 15 + 1 ⭐ Outstanding | Multi-Agent Search, SWE, IT Automation, Curious Agent |
 | NeurIPS | 2025 | 6 + 🏆 Best Paper + 🥈 Runner-up | RL Scaling, VLN, World Simulator, Web Code Benchmark |
 | CVPR | 2025 | 8 | Navigation World Models, Generalist Embodied Agent, Robot |
 | ACL | 2025 | Representative (awards TBD) | Tool Agent, Repo-level Compilation |
-| ICLR | 2026 | 6 (Oral confirmed) | Agent Protocol, Security Testing, Inference Speedup |
 | ICML | 2024 | 11 | LLM Agent Frameworks, Code Agent, Multi-Agent Competition |
 | ACL | 2024 | 3 (award papers) | Interactive Coding Agent, Multi-Agent Safety, Econ Simulation |
 | NeurIPS | 2024 | 5 (representative) | Agent Eval, Social Agent, GUI Agent, Code Agent |
 | CVPR | 2024 | 5 | Embodied AI Perception, Autonomous Driving, Embodied Navigation |
+
+---
+
+## 📌 ICLR 2026 Oral — 6 Papers
+
+> Papers confirmed on OpenReview; conference to be held in 2026
+
+| Paper | TL;DR |
+|-------|-------|
+| 📖 **Agent Data Protocol** | Proposes a standardized protocol for AI agent interactions with external data sources |
+| 📖 **MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science** | Scalable agentic training environment for code-centric reasoning in biomedical data science |
+| 📖 **AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite** | Rigorous evaluation of AI agents across a full scientific research workflow |
+| 📖 **Speculative Actions: A Lossless Framework for Faster AI Agents** | Speculative execution framework that significantly accelerates AI agent inference without accuracy loss |
+| 📖 **RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments** | Red-teaming framework for adversarial testing of computer-use agents in realistic Web-OS environments |
+| 📖 **Compositional Diffusion with Guided Search for Long-Horizon Planning** | Compositional diffusion model with guided search for agent long-horizon planning |
 
 ---
 
@@ -235,21 +250,6 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 |-------|-------|-------|
 | 📖 **CompileAgent: Automated Real-World Repo-Level Compilation with Tool-Integrated LLM-based Agent System** | [ACL Anthology](https://aclanthology.org/2025.acl-long.103) | Tool-integrated LLM agent system that automates real-world repository-level compilation |
 | *(More agent papers)* | [ACL 2025 Proceedings](https://aclanthology.org/events/acl-2025/) | Covers multi-agent systems, agentic workflow, tool use, etc. |
-
----
-
-## 📌 ICLR 2026 Oral — 6 Papers
-
-> Papers confirmed on OpenReview; conference to be held in 2026
-
-| Paper | TL;DR |
-|-------|-------|
-| 📖 **Agent Data Protocol** | Proposes a standardized protocol for AI agent interactions with external data sources |
-| 📖 **MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science** | Scalable agentic training environment for code-centric reasoning in biomedical data science |
-| 📖 **AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite** | Rigorous evaluation of AI agents across a full scientific research workflow |
-| 📖 **Speculative Actions: A Lossless Framework for Faster AI Agents** | Speculative execution framework that significantly accelerates AI agent inference without accuracy loss |
-| 📖 **RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments** | Red-teaming framework for adversarial testing of computer-use agents in realistic Web-OS environments |
-| 📖 **Compositional Diffusion with Guided Search for Long-Horizon Planning** | Compositional diffusion model with guided search for agent long-horizon planning |
 
 ---
 
