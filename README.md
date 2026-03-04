@@ -37,15 +37,15 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 |-------|------|-------------|-------------|
 | ICLR | 2026 | 6 (Oral confirmed) | Agent Protocol, Security Testing, Inference Speedup |
 | ICLR | 2025 | 22 | Agentic Workflow, GUI Agent, Benchmarks, Embodied AI |
-| ICML | 2025 | 15 + 1 ⭐ Outstanding | Multi-Agent Search, SWE, IT Automation, Curious Agent |
-| NeurIPS | 2025 | 6 + 🏆 Best Paper + 🥈 Runner-up | RL Scaling, VLN, World Simulator, Web Code Benchmark |
+| ICML | 2025 | 16 | Multi-Agent Search, SWE, IT Automation, Curious Agent |
+| NeurIPS | 2025 | 8 | RL Scaling, VLN, World Simulator, Web Code Benchmark |
 | CVPR | 2025 | 8 | Navigation World Models, Generalist Embodied Agent, Robot |
-| ACL | 2025 | 2 (SAC Highlights) + representative | AI Agent for Science, Visual Gen Eval |
+| ACL | 2025 | 2 | AI Agent for Science, Visual Gen Eval |
 | ICCV | 2025 | 2 | Robot Manipulation from Video, Embodied AI Reasoning Agent |
 | ICML | 2024 | 11 | LLM Agent Frameworks, Code Agent, Multi-Agent Competition |
 | ICLR | 2024 | 6 | Web Agent, MetaGPT, SWE-bench, Causal World Model, MARL |
-| ACL | 2024 | 3 (award papers) | Interactive Coding Agent, Multi-Agent Safety, Econ Simulation |
-| NeurIPS | 2024 | 5 (representative) | Agent Eval, Social Agent, GUI Agent, Code Agent |
+| ACL | 2024 | 3 | Interactive Coding Agent, Multi-Agent Safety, Econ Simulation |
+| NeurIPS | 2024 | 5 | Agent Eval, Social Agent, GUI Agent, Code Agent |
 | CVPR | 2024 | 5 | Embodied AI Perception, Autonomous Driving, Embodied Navigation |
 
 ---
@@ -247,7 +247,6 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 
 ## 📌 ACL 2025 — Award & Representative Papers
 
-> Held in Vienna, Austria, July 2025
 
 ### 🏅 SAC Highlights (Area Chair Award — Agent-Related)
 
@@ -366,25 +365,25 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 ## 🔑 Topic Index
 
 ### Agentic Workflow / Automation
-- AFlow (ICLR 2025) `2410.10762`
+- AFlow (ICLR 2025)
 - GPTSwarm (ICML 2024)
 - EoH (ICML 2024)
 - MaAS (ICML 2025)
 - Speculative Actions (ICLR 2026)
-- Completing Systematic Review Agents (ACL 2025) `2504.14822`
+- Completing Systematic Review Agents (ACL 2025)
 
 ### GUI / Web / Computer-Use Agent
-- UGround (ICLR 2025) `2410.05243`
-- Spider 2.0 (ICLR 2025) `2411.07763`
-- WebAgent (ICLR 2024) `2307.12856`
-- CogAgent (NeurIPS 2024) `2312.08914`
+- UGround (ICLR 2025)
+- Spider 2.0 (ICLR 2025)
+- WebAgent (ICLR 2024)
+- CogAgent (NeurIPS 2024)
 - RedTeamCUA (ICLR 2026)
 
 ### Code / Software Engineering Agent
-- BigCodeBench (ICLR 2025) `2406.15877`
-- MLE-bench (ICLR 2025) `2410.07095`
+- BigCodeBench (ICLR 2025)
+- MLE-bench (ICLR 2025)
 - AppWorld 🏆 (ACL 2024)
-- SWE-bench (ICLR 2024) `2310.06770`
+- SWE-bench (ICLR 2024)
 - SWE-Lancer (ICML 2025)
 - Chain of Code (ICML 2024)
 - CompileAgent (ACL 2025)
@@ -392,22 +391,22 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 - SceneCraft (ICML 2024)
 
 ### Multi-Agent Systems
-- MetaGPT (ICLR 2024) `2308.00352`
+- MetaGPT (ICLR 2024)
 - Efficient Episodic Memory MARL (ICLR 2024)
 - CompeteAI (ICML 2024)
-- Advantage Alignment (ICLR 2025) `2406.14662`
+- Advantage Alignment (ICLR 2025)
 - PsySafe 🏆 (ACL 2024)
 - CEC (ICML 2025)
 - CollabLLM ⭐ (ICML 2025 Outstanding)
 - Agent Data Protocol (ICLR 2026)
 
 ### Embodied Agent / Robotics
-- Kinetix (ICLR 2025) `2410.23208`
-- Instant Policy (ICLR 2025) `2411.12633`
-- Seer (ICLR 2025) `2412.15109`
-- LS-Imagine (ICLR 2025) `2410.03618`
-- EmbodiedScan (CVPR 2024) `2312.16170`
-- GROOT (CVPR 2024) `2310.08235`
+- Kinetix (ICLR 2025)
+- Instant Policy (ICLR 2025)
+- Seer (ICLR 2025)
+- LS-Imagine (ICLR 2025)
+- EmbodiedScan (CVPR 2024)
+- GROOT (CVPR 2024)
 - EmbodiedBench (ICML 2025)
 - NWM (CVPR 2025)
 - GEA (CVPR 2025)
@@ -416,8 +415,8 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 - RoboSpatial (CVPR 2025)
 - PRIMT (NeurIPS 2025)
 - Dynam3D (NeurIPS 2025)
-- Moto (ICCV 2025) `2412.04445`
-- Online Reasoning Video Segmentation (ICCV 2025) `2503.21056`
+- Moto (ICCV 2025)
+- Online Reasoning Video Segmentation (ICCV 2025)
 - MedAgentGym (ICLR 2026)
 
 ### RL Agent / Reasoning Agent
@@ -433,24 +432,24 @@ The number of AI papers has grown explosively — thousands are submitted to eac
 
 ### Agent Safety / Alignment / Governance
 - AI Control (ICML 2024)
-- Cybench (ICLR 2025) `2408.08926`
-- SCoRe (ICLR 2025) `2409.12917`
+- Cybench (ICLR 2025)
+- SCoRe (ICLR 2025)
 - AutoAdvExBench (ICML 2025)
 - STAIR (ICML 2025)
 - RedTeamCUA (ICLR 2026)
 - Authenticated Delegation (ICML 2025 Position)
 
 ### Agent Benchmarks (General)
-- AgentBench (NeurIPS 2024) `2308.03688`
-- SOTOPIA (NeurIPS 2024) `2310.11667`
-- REGENT (ICLR 2025) `2412.04759`
-- PhysBench (ICLR 2025) `2501.16411`
+- AgentBench (NeurIPS 2024)
+- SOTOPIA (NeurIPS 2024)
+- REGENT (ICLR 2025)
+- PhysBench (ICLR 2025)
 - EconAgent 🏆 (ACL 2024)
 - OmniBench (ICML 2025)
 - ITBench (ICML 2025)
 - LLM-SRBench (ICML 2025)
 - AstaBench (ICLR 2026)
-- Evaluation Agent (ACL 2025) `2412.09645`
+- Evaluation Agent (ACL 2025)
 
 ---
 
